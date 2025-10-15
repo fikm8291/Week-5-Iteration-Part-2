@@ -32,6 +32,9 @@
 
 # Task 1: Simple Counting Loop
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Task 1: Simple Counting Loop\n"
+    + "-------------------------------------------")
 # A while loop repeats until a condition becomes False.
 #
 # TODO:
@@ -65,6 +68,9 @@
 
 # Task 2: Using While with User Input
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Task 2: Using While with User Input\n"
+    + "-------------------------------------------")
 # You can control loops with user input.
 #
 # TODO:
@@ -97,6 +103,9 @@
 
 # Task 3: While Loop with Numbers
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Task 3: While Loop with Numbers\n"
+    + "-------------------------------------------")
 # TODO:
 # 1. Ask the user to enter a number between 1 and 10.
 # 2. Keep asking until they actually give a number in that range.
@@ -134,6 +143,9 @@
 
 # Extension 1:
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Extension 1:\n"
+    + "-------------------------------------------")
 # Create a simple counter that counts down from 10 to 1.
 # Print each number.
 # When it finishes, print "Liftoff!"
@@ -159,6 +171,9 @@
 
 # Extension 2:
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Extension 2:\n"
+    + "-------------------------------------------")
 # Ask the user to enter a password.
 # Keep asking until they type the correct one.
 # When they get it right, print “Access granted”.
@@ -184,6 +199,9 @@
 
 # Extension 3:
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "Extension 3:\n"
+    + "-------------------------------------------")
 # Ask the user to enter numbers.
 # Keep adding them together into a total.
 # When the total goes above 50, stop the loop and print the total.
@@ -210,6 +228,9 @@
 # -------------------------------------------
 # ADVANCED ACTIVITY
 # -------------------------------------------
+print("-------------------------------------------\n"
+    + "ADVANCED ACTIVITY\n"
+    + "-------------------------------------------")
 # Now complete this challenge together.
 # Choose one learner’s computer to finish on (the last one used is fine).
 #
