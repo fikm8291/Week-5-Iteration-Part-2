@@ -1,261 +1,228 @@
 # -------------------------------------------
 # Exercise 2: While Loops
 # -------------------------------------------
-# In this exercise, you’ll work in groups of 2–3.
-# You’ll learn how to repeat code using a while loop.
-# A while loop runs *while a condition is True*.
 #
-# Syntax reminder:
-# while condition:
-#     # code that repeats
+# GOAL:
+# 1. Master Repetition based on conditions (While loops).
+# 2. Practise the "Relay Race" Git workflow in groups of 2-3.
 #
-# Example (syntax only):
-# count = 0
-# while count < 5:
-#     print("Repeating...")
-#     count = count + 1
+# CONCEPT:
+# A 'while' loop is like a repeating 'if' statement.
+# It continues to run the code block *while* a condition remains True.
+# - Useful when you don't know exactly how many times you need to loop
+#   (e.g., waiting for a user to type the correct password).
 #
-# -------------------------------------------
-# GROUP INSTRUCTIONS
-# -------------------------------------------
-# Work in groups of 2–3 learners.
-# You will all share the same GitHub Classroom repository.
-#
-# After each task:
-# - The learner who is currently coding will git add, commit, and push.
-# - The next learner will move to their own computer, git pull, and continue.
-#
-# If you are in pairs:
-# - Swap computers after each task (back and forth).
+# PAIR PROGRAMMING RULES:
+# - The DRIVER types the code.
+# - The NAVIGATOR guides the driver.
+# - You will SWITCH roles and computers after every task!
 # -------------------------------------------
 
 
-# Task 1: Simple Counting Loop
+# -------------------------------------------
+# Task 1: The Counter
 # -------------------------------------------
 print("-------------------------------------------\n"
-    + "Task 1: Simple Counting Loop\n"
+    + "Task 1: The Counter\n"
     + "-------------------------------------------")
-# A while loop repeats until a condition becomes False.
-#
+
 # TODO:
-# 1. Create a variable called count and set it to 1.
-# 2. Write a while loop that runs while count is less than or equal to 5.
-# 3. Print the value of count each time the loop runs.
-# 4. Add 1 to count inside the loop so it eventually stops.
+# 1. Create a variable called 'count' and set it to 1.
+# 2. Write a while loop that runs while 'count' is less than or equal to 5.
+# 3. Inside the loop:
+#    - Print the value of 'count'.
+#    - Add 1 to 'count' (count = count + 1).
 #
-# Example (similar idea):
-# while number < 3:
-#     print("Loop running")
-#     number = number + 1
-#
+# Warning: If you forget to add 1, you will create an "Infinite Loop"!
+
 # Write your code below:
 
 
 # -------------------------------------------
-# SWAP COMPUTERS
+# SAVING YOUR WORK
 # -------------------------------------------
-# 1. Save your file
-# 2. Open the terminal
+# 1. Save your file (Ctrl+S).
+# 2. Open the terminal.
 # 3. Run:
 #    git add Ex2_while_loops.py
-#    git commit -m "Completed Task 1 - counting loop"
+#    git commit -m "Completed Task 1"
 #    git push origin main
-# 4. The next learner goes to their own computer.
-# 5. On their computer, open the terminal and run:
-#    git pull
+#
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
 # -------------------------------------------
 
 
-# Task 2: Using While with User Input
 # -------------------------------------------
-print("-------------------------------------------\n"
-    + "Task 2: Using While with User Input\n"
+# Task 2: The Parrot (User Input)
+# -------------------------------------------
+# INSTRUCTION: You are now at a new computer.
+# 1. Open the terminal.
+# 2. Run: `git pull origin main`
+
+print("\n-------------------------------------------\n"
+    + "Task 2: The Parrot\n"
     + "-------------------------------------------")
-# You can control loops with user input.
-#
+
 # TODO:
-# 1. Ask the user to type a word.
-# 2. Keep asking them until they type "stop".
-# 3. Each time, print a message like "You typed <word>".
+# 1. Create a variable called 'user_word' and set it to an empty string "" or "start".
+# 2. Create a while loop that runs while 'user_word' is NOT equal to "stop".
+# 3. Inside the loop:
+#    - Ask the user to type a word (Input).
+#    - Print "You typed: " followed by their word.
 #
-# Example (similar idea):
-# while something != "quit":
-#     print("You typed something")
-#     something = input("Type again: ")
-#
+# Note: The loop should only end when they type "stop".
+
 # Write your code below:
 
 
 # -------------------------------------------
-# SWAP COMPUTERS
+# SAVING YOUR WORK
 # -------------------------------------------
-# 1. Save your file
-# 2. Open the terminal
-# 3. Run:
+# 1. Save your file.
+# 2. Run:
 #    git add Ex2_while_loops.py
-#    git commit -m "Completed Task 2 - while with input"
+#    git commit -m "Completed Task 2"
 #    git push origin main
-# 4. The next learner goes to their own computer.
-# 5. On their computer, open the terminal and run:
-#    git pull
+#
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
 # -------------------------------------------
 
 
-# Task 3: While Loop with Numbers
 # -------------------------------------------
-print("-------------------------------------------\n"
-    + "Task 3: While Loop with Numbers\n"
+# Task 3: The Gatekeeper (Validation)
+# -------------------------------------------
+# INSTRUCTION: Get the code from the previous Driver.
+# 1. Run: `git pull origin main`
+
+print("\n-------------------------------------------\n"
+    + "Task 3: The Gatekeeper\n"
     + "-------------------------------------------")
+
 # TODO:
-# 1. Ask the user to enter a number between 1 and 10.
-# 2. Keep asking until they actually give a number in that range.
-# 3. When they finally do, print a thank-you message.
-#
-# Hint: You’ll need to use int() to convert the input into a number.
-# Example (similar idea):
-# while guess != target:
-#     print("Try again")
-#
+# 1. Ask the user to enter a number (convert to int) and store it in a variable.
+# 2. Create a while loop that runs while the number is LESS than 1 OR GREATER than 10.
+# 3. Inside the loop:
+#    - Print "Invalid number. Try again."
+#    - Ask for the number again (update the variable).
+# 4. Outside the loop (after it finishes), print "Thank you!".
+
 # Write your code below:
 
 
 # -------------------------------------------
-# SWAP COMPUTERS
+# SAVING YOUR WORK
 # -------------------------------------------
-# 1. Save your file
-# 2. Open the terminal
-# 3. Run:
+# 1. Save your file.
+# 2. Run:
 #    git add Ex2_while_loops.py
-#    git commit -m "Completed Task 3 - number validation"
+#    git commit -m "Completed Task 3"
 #    git push origin main
-# 4. The next learner goes to their own computer.
-# 5. On their computer, open the terminal and run:
-#    git pull
+#
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
 # -------------------------------------------
 
 
 # -------------------------------------------
 # EXTENSION ACTIVITIES
 # -------------------------------------------
-# Now that everyone has had a turn, continue swapping computers
-# after each extension task as before.
-# -------------------------------------------
 
-# Extension 1:
+# Extension 1: The Rocket Launch
 # -------------------------------------------
-print("-------------------------------------------\n"
-    + "Extension 1:\n"
+# INSTRUCTION: Run `git pull origin main` first.
+
+print("\n-------------------------------------------\n"
+    + "Extension 1: The Rocket Launch\n"
     + "-------------------------------------------")
-# Create a simple counter that counts down from 10 to 1.
-# Print each number.
-# When it finishes, print "Liftoff!"
-#
-# Example (similar idea):
-# while something > 0:
-#     print(something)
-#     something = something - 1
+
+# TODO:
+# 1. Create a variable set to 10.
+# 2. Loop while the variable is greater than 0.
+# 3. Print the number, then subtract 1 from the variable.
+# 4. When the loop finishes, print "Liftoff!".
+
+# Write your code below:
+
+
+# Extension 2: The Security System
+# -------------------------------------------
+print("\n-------------------------------------------\n"
+    + "Extension 2: The Security System\n"
+    + "-------------------------------------------")
+
+# TODO:
+# 1. Create a variable 'correct_pass' = "python123".
+# 2. Ask the user to enter a password.
+# 3. While the input does NOT match 'correct_pass':
+#    - Print "Access Denied."
+#    - Ask for the password again.
+# 4. Print "Access Granted" when the loop ends.
+
+# Write your code below:
+
+
+# Extension 3: The Accumulator
+# -------------------------------------------
+print("\n-------------------------------------------\n"
+    + "Extension 3: The Accumulator\n"
+    + "-------------------------------------------")
+
+# TODO:
+# 1. Create a variable 'total' and set it to 0.
+# 2. Loop while 'total' is less than or equal to 50.
+# 3. Ask the user for a number (integer).
+# 4. Add that number to 'total'.
+# 5. Print the current total inside the loop.
+# 6. When the loop breaks (total > 50), print "Limit reached!".
 
 # Write your code below:
 
 
 # -------------------------------------------
-# SWAP COMPUTERS
+# SAVING YOUR WORK
 # -------------------------------------------
-# 1. Save and push this file:
+# 1. Save your file.
+# 2. Run:
 #    git add Ex2_while_loops.py
-#    git commit -m "Completed Extension 1 - countdown"
+#    git commit -m "Completed extensions"
 #    git push origin main
-# 2. Next learner: git pull
-# -------------------------------------------
-
-
-# Extension 2:
-# -------------------------------------------
-print("-------------------------------------------\n"
-    + "Extension 2:\n"
-    + "-------------------------------------------")
-# Ask the user to enter a password.
-# Keep asking until they type the correct one.
-# When they get it right, print “Access granted”.
 #
-# Hint: You can compare strings using ==.
-# Example (similar idea):
-# while password_entered != correct_password:
-#     print("Try again")
-
-# Write your code below:
-
-
-# -------------------------------------------
-# SWAP COMPUTERS
-# -------------------------------------------
-# 1. Save and push this file:
-#    git add Ex2_while_loops.py
-#    git commit -m "Completed Extension 2 - password loop"
-#    git push origin main
-# 2. Next learner: git pull
+# *** STOP! ***
+# SWITCH SEATS AND COMPUTERS NOW.
 # -------------------------------------------
 
 
-# Extension 3:
 # -------------------------------------------
-print("-------------------------------------------\n"
-    + "Extension 3:\n"
+# ADVANCED ACTIVITY: The Hi-Lo Game
+# -------------------------------------------
+# INSTRUCTION: Run `git pull origin main` first.
+
+print("\n-------------------------------------------\n"
+    + "ADVANCED ACTIVITY: The Hi-Lo Game\n"
     + "-------------------------------------------")
-# Ask the user to enter numbers.
-# Keep adding them together into a total.
-# When the total goes above 50, stop the loop and print the total.
-#
-# Example (similar idea):
-# while total < 100:
-#     num = int(input("Enter a number: "))
-#     total = total + num
 
-# Write your code below:
-
-
-# -------------------------------------------
-# SWAP COMPUTERS
-# -------------------------------------------
-# 1. Save and push this file:
-#    git add Ex2_while_loops.py
-#    git commit -m "Completed Extension 3 - total sum loop"
-#    git push origin main
-# 2. Next learner: git pull
-# -------------------------------------------
-
-
-# -------------------------------------------
-# ADVANCED ACTIVITY
-# -------------------------------------------
-print("-------------------------------------------\n"
-    + "ADVANCED ACTIVITY\n"
-    + "-------------------------------------------")
-# Now complete this challenge together.
-# Choose one learner’s computer to finish on (the last one used is fine).
-#
-# Advanced Task:
-# Create a number guessing game.
+# TODO:
 # 1. Set a secret number (e.g. 7).
-# 2. Ask the user to guess the number.
-# 3. Use a while loop to keep asking until they guess correctly.
-# 4. If the guess is too high or too low, print a hint.
-# 5. When correct, print how many tries it took.
-#
-# Hint: Use a counter variable to count attempts.
+# 2. Create a variable 'tries' set to 0.
+# 3. Create a variable 'guess' set to 0.
+# 4. Loop while 'guess' is NOT equal to the secret number:
+#    - Ask the user to guess.
+#    - Add 1 to 'tries'.
+#    - IF guess > secret: Print "Too high!"
+#    - ELIF guess < secret: Print "Too low!"
+# 5. Print f"Correct! It took you {tries} tries."
 
 # Write your code below:
 
 
 # -------------------------------------------
-# Submitting Your Work
+# SAVING YOUR WORK
 # -------------------------------------------
-# Once you’ve completed this exercise:
-# 1. Save your file
-# 2. Open the terminal
-# 3. Run:
+# 1. Save this file.
+# 2. Run:
 #    git add Ex2_while_loops.py
-#    git commit -m "Completed advanced while loop activity"
+#    git commit -m "Completed Hi-Lo game"
 #    git push origin main
-# 4. Check GitHub to confirm your group’s final version appears.
 # -------------------------------------------
